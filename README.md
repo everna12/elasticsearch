@@ -16,19 +16,27 @@
 앱 이릅을 정하고 Next 버튼을 누르면<br/>
 ![Alt text](5.PNG)<br/>
 앱이 만들어진것을 확인할 수 있다.<br/>
+그리고 화면에 Bearer Token의 Regenerate 버튼을 클릭하면<br/>
+![Alt text](6.PNG)<br/>
+Bearer Token의 키 값을 받을 수 있다.<br/>
+
+
+
 ## Step2
-
-엘라스틱서치가 완전히 실행되면 키바나 폴더에서 bin\kibana.bat 파일을 실행한다.<br/>
-
-위 그림은 실행장면이다.
+![Alt text](7.PNG)<br/>
+elasticsearch를 실행해주고,<br/>
+![Alt text](8.PNG)<br/>
+엘라스틱서치가 완전히 실행되면 키바나를 실행해준다.<br/>
+![Alt text](9.PNG)<br/>
+엘라스틱 서치와 키바나를 준비하는 동안 로그스태시
 <br/>
 
 ## Step3
 
 키바나가 완전히 실행되면 logstash파일에 들어가서 이번에는 실행하는 것이 아닌 경로부분에 cmd를 입력하여 커맨드 창을 실행한다.<br/>
-![Alt text](6.PNG)<br/>
+
 커맨드창을 실행 후 bin\logstash.bat =f config\logstash-twitter.conf 명령어를 입력한다.<br>
-![Alt text](7.PNG)<br/>
+
 위 그림은 명령어를 입력한 후 실행장면이다.
 <br/>
 
